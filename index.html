@@ -598,69 +598,67 @@
 </section>
 
 <!-- SHOP -->
-<div class="products-grid">
+<section id="shop">
+  <div class="section-wrap">
 
-  <div class="product-card">
+    <div class="products-header">
+      <div>
+        <div class="section-eyebrow">Shop</div>
+        <h2 class="section-title">AI <em>Tools</em></h2>
+      </div>
+    </div>
 
-  <span class="product-tag">FREE TOOL</span>
+    <div class="products-grid">
 
-  <h3 class="product-title">AI Text Generator</h3>
+      <!-- CARD 1 -->
+      <div class="product-card">
+        <span class="product-tag">FREE TOOL</span>
+        <h3 class="product-title">AI Text Generator</h3>
+        <p class="product-desc">
+          Generate blogs, captions, scripts instantly using AI.
+        </p>
+        <div class="product-price">
+          <span class="price-amount">Free</span>
+        </div>
+        <button class="btn-primary" onclick="useTool('text')">
+          Generate Now
+        </button>
+      </div>
 
-  <p class="product-desc">
-    Generate blogs, captions, scripts instantly using AI.
-  </p>
+      <!-- CARD 2 -->
+      <div class="product-card">
+        <span class="product-tag">FREE TOOL</span>
+        <h3 class="product-title">AI Image Generator</h3>
+        <p class="product-desc">
+          Create thumbnails and visuals instantly.
+        </p>
+        <div class="product-price">
+          <span class="price-amount">Free</span>
+        </div>
+        <button class="btn-primary" onclick="useTool('image')">
+          Create Image
+        </button>
+      </div>
 
-  <div class="product-price">
-    <span class="price-amount">Free</span>
+      <!-- CARD 3 -->
+      <div class="product-card">
+        <span class="product-tag">PREMIUM</span>
+        <h3 class="product-title">AI Creator Bundle</h3>
+        <p class="product-desc">
+          Unlock all tools + monetization features.
+        </p>
+        <div class="product-price">
+          <span class="price-amount">₹199</span>
+        </div>
+        <a href="https://rzp.io/l/YOUR_LINK" target="_blank">
+          <button class="btn-primary">Upgrade</button>
+        </a>
+      </div>
+
+    </div>
+
   </div>
-
-  <button class="btn-primary" onclick="useTool('text')">
-    Generate Now
-  </button>
-
-</div>
-
-
-<div class="product-card">
-
-  <span class="product-tag">FREE TOOL</span>
-
-  <h3 class="product-title">AI Image Generator</h3>
-
-  <p class="product-desc">
-    Create thumbnails, social posts and visuals instantly.
-  </p>
-
-  <div class="product-price">
-    <span class="price-amount">Free</span>
-  </div>
-
-  <button class="btn-primary" onclick="useTool('image')">
-    Create Image
-  </button>
-
-</div>
-
-
-<div class="product-card">
-
-  <span class="product-tag">PREMIUM</span>
-
-  <h3 class="product-title">AI Creator Bundle</h3>
-
-  <p class="product-desc">
-    Unlock all tools + monetization features.
-  </p>
-
-  <div class="product-price">
-    <span class="price-amount">₹199</span>
-  </div>
-
-  <a href="https://rzp.io/rzp/aC3OmPa6" target="_blank">
-    <button class="btn-primary">Upgrade</button>
-  </a>
-
-</div>
+</section>
 
 <!-- ABOUT -->
 <section id="about">
@@ -908,7 +906,6 @@
       document.querySelector('.newsletter-btn').style.background = '#3b7a57';
     }
   });
-</script>
 <script>
 
 let credits = 50;
